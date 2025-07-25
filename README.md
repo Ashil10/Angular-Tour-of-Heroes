@@ -1,27 +1,49 @@
-# AngularTourOfHeroes
+# 🧭 Angular Tour of Heroes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+This project is built by following the Angular documentation's "Tour of Heroes" tutorial—a beginner-friendly walkthrough for learning Angular fundamentals such as components, templates, services, routing, and HTTP communication.
 
-## Development server
+## 🚀 Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The Tour of Heroes application helps new Angular developers understand key concepts by creating a web app to manage a list of superheroes. You'll learn to:
 
-## Code scaffolding
+- Build components and pass data between them
+- Implement user input handling
+- Set up routing for navigation
+- Connect to backend services using HTTP
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📦 Project Structure
 
-## Build
+- `src/app/`
+  - `hero.ts`: Defines the Hero model.
+  - `hero.service.ts`: Provides hero-related data and handles HTTP requests.
+  - `hero-detail/`: Component for viewing/editing a single hero.
+  - `heroes/`: Component for listing all heroes.
+  - `dashboard/`: Component showing top heroes.
+  - `messages/`: Component for logging app messages.
+  - `app-routing.module.ts`: Handles navigation routes.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🛠️ Setup Instructions
 
-## Running unit tests
+1. **Clone the repository**
+2. Run `npm install` to install dependencies
+3. Run `ng serve` and navigate to `http://localhost:4200/` in your browser
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## ✅ Prerequisites
 
-## Running end-to-end tests
+- Node.js & npm
+- Angular CLI (`npm install -g @angular/cli`)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 📚 Resources
 
-## Further help
+- Angular Tutorial: [Tour of Heroes](https://angular.io/tutorial)
+- Angular Docs: [angular.io](https://angular.io)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 📌 Future Ideas
+
+- Add search functionality to filter heroes
+- Integrate a backend API (e.g. Firebase or Express)
+- Add authentication and user roles
+
+---
+
+Crafted with ⚡ using Angular. Happy coding!
